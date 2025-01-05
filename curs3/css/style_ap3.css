@@ -7,7 +7,7 @@ h1{
     padding: 20px;
 }
 section{
-     width: 44%;
+     width: 40%;
      float:left;
      border: double 3px red;
      margin: 20px;
@@ -16,5 +16,5 @@ section{
      background-image: url(../../sta-je-html.jpg);
      background-repeat: no-repeat;
      background-size: cover;
-     background-position: 60% 50;
+     background-position: 50% 50;
 }
