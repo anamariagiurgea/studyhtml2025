@@ -15,4 +15,6 @@ section{
      border-radius: 45px;
      background-image: url(../../sta-je-html.jpg);
      background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 60% 50;
 }
