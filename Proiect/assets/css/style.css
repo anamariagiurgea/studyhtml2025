@@ -1,41 +1,43 @@
 .logo{
-    width: 130%;
+    width: 100%;
     max-width: 150px;
     float: left;
 }
 #logo{
     width: 150px;
 }
-nav{width: 120% ;
-    }
+nav{width: 100% ;
+      }
 nav ul{
-    height: 80px;
-    background-color: rgba(119, 119, 19, 0.767);
-    padding: 20px 20px;
-    }
+    height: 100px;
+    background-color: rgba(5, 5, 5, 0.767);
+    padding: 11px 0px;
+          }
 nav ul li{
     display: inline;
-    padding: 8px; 
-    list-style: none;  
-  }
-nav ul li:hover, nav ul li.active{
-    background-color: rgba(4, 190, 103, 0.651);
+    padding: 8px 15 px; 
+    list-style: none;
+          }
+/*  cand coloram doar literele li hover culoare ul liactive */
+  nav ul li:hover,nav ul li.active{
+    background-color: rgba(201, 190, 43, 0.651);
 }
  
 nav ul li a{
     font-size: 20px;
-    color: #0f0d0d;
+    color: #e2ebee;
     text-decoration: none;
-}
+    align: left;
+    }
 
 /* End of header */
 #banner{background-image: url(../img/technology-banner.jpg) ;
-height:740px
+height: 200px
 }
 #banner h1{ color: white;
             position:absolute;
             left:40%;
-            top:40%;
+            top: 30%;
         }
 /* end of banner */
 
@@ -44,12 +46,10 @@ height:740px
           }
     #foto{
         width:100%;
-        max-width:400px;
+        max-width: 400px;
         margin: auto;
          }
     #foto img.foto{
         display: inline-block;
-        margin:20px;
-                
-
+        margin:15px;       
     }
