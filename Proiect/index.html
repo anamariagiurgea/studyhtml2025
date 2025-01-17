@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Proiect PMS: HTML+CSS </title>
-     <link rel="stylesheet" href="./assets/css/style.css">
-     <link rel="icon" type="image/png" href="./assets/img/favicon-96x96.png" sizes="96x96" />
-     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
-     <link rel="shortcut icon" href="./assets/img/favicon.ico" />
-     <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/apple-touch-icon.png" />
-     <link rel="manifest" href="./assets/img/web-app-manifest-192x192.png" />
+    <meta name="description" content="Primul proiect">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Ana Giurgea">
 
-     <meta name="description" content="Primul proiect">
-     <meta name="keywords" content="HTML, CSS, JavaScript">
-     <meta name="author" content="Ana Giurgea">
+    <title>Proiect PMS: HTML+CSS </title>
+    <!-- Metoda 1 de adaugat fonturi, in caz in care nu ai internet el nu v functiona isi prea inf din google -->
+    <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
+     -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="icon" type="image/png" href="./assets/img/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/apple-touch-icon.png" />
+    <link rel="manifest" href="./assets/img/web-app-manifest-192x192.png" />
+
     
-
 </head>
+
 <body>
     <!-- START HEADEAR -->
     <header>
@@ -35,34 +44,46 @@
     </header>
     <!-- STOP HEADER -->
     <!-- START BANNER -->
-     <DIV id="banner">
+    <DIV id="banner">
         <SECTION>
             <H1>Primul proiect HTML + CSS 06/01/2025</H1>
-              </SECTION>
-     </DIV>
+        </SECTION>
+    </DIV>
     <!-- STOP BANNER -->
-     <MAIN>
+    <MAIN>
         <SECTION class="container">
-            <H2>Elemente HTML folosite pentru  text</H2>
-            <p>Din perspectiva felului în care ocupă și distribuie spațiul din interiorul lor și în cadrul layout-ului paginii, deci, tag-urile sunt de două feluri:
-            <p> <strong>block-level: </strong> sunt niște blocuri care ocupă întreaga lățime a containerului în care sunt puse și de obicei încapsulează multe alte tag-uri în interiorul lor, și
-            <br><strong>inline-level:</strong> încapsulează de obicei doar text sau alte tag-uri inline, la fel ca ele, și ocupă doar spațiul pe care-l ocupă textul încapsulat</p>
-            <p>Identificatorii sunt foarte utili în momentul în care vrei să distingi între mai multe elemente de același fel, în același context sau în contexte diferite. Clasele sunt folosite cu preponderență în CSS pentru a stiliza elementele într-un anume fel, iar ID-urile pot fi folosite și în CSS (deși nu e recomandat), însă sunt foarte utile în JavaScript pentru a adăuga funcționalitate specială unor elemente din HTML.</p>
+            <H2>Elemente HTML folosite pentru text</H2>
+            <p>Din perspectiva felului în care ocupă și distribuie spațiul din interiorul lor și în cadrul layout-ului
+                paginii, deci, tag-urile sunt de două feluri:
+            <p> <strong>block-level: </strong> sunt niște blocuri care ocupă întreaga lățime a containerului în care
+                sunt puse și de obicei încapsulează multe alte tag-uri în interiorul lor, și
+                <br><strong>inline-level:</strong> încapsulează de obicei doar text sau alte tag-uri inline, la fel ca
+                ele, și ocupă doar spațiul pe care-l ocupă textul încapsulat
+            </p>
+            <p>Identificatorii sunt foarte utili în momentul în care vrei să distingi între mai multe elemente de
+                același fel, în același context sau în contexte diferite. Clasele sunt folosite cu preponderență în CSS
+                pentru a stiliza elementele într-un anume fel, iar ID-urile pot fi folosite și în CSS (deși nu e
+                recomandat), însă sunt foarte utile în JavaScript pentru a adăuga funcționalitate specială unor elemente
+                din HTML.</p>
             <p><em>Există câteva reguli de reținut când discutăm de clase și ID-uri.</em></p>
-            <p>În primul rând,<mark>nici clasele nici ID-urile nu se pot scrie folosind spații </mark>, simboluri mai mic sau mai mare, egal-uri, alt fel de ghilimele decât cele folosite de proprietate. În plus, nici clasele nici ID-urile nu pot începe cu o cifră, doar cu litere mari sau mici. Asta înseamnă că dacă vrei să transformi fraza „Buton principal activ” într-o clasă sau un ID, există câteva convenții care te ajută să faci asta:</p>
+            <p>În primul rând,<mark>nici clasele nici ID-urile nu se pot scrie folosind spații </mark>, simboluri mai
+                mic sau mai mare, egal-uri, alt fel de ghilimele decât cele folosite de proprietate. În plus, nici
+                clasele nici ID-urile nu pot începe cu o cifră, doar cu litere mari sau mici. Asta înseamnă că dacă vrei
+                să transformi fraza „Buton principal activ” într-o clasă sau un ID, există câteva convenții care te
+                ajută să faci asta:</p>
 
         </SECTION>
         <SECTION class="container">
             <h2>Liste HTML</h2>
-          <uL>
-             <Li>Ce insemana HTML</Li>
-             <li>Istoric despre HTML</Li>
-             <li>Intoducere in HTML</li>
-             <li>Fundamentele HTML</li>
-             <li>Introducere in CSS</li>
-             <li>HTML SI CSS</li>
-             <li>Cuvinte cheie</li>
-          </uL>
+            <uL>
+                <Li>Ce insemana HTML</Li>
+                <li>Istoric despre HTML</Li>
+                <li>Intoducere in HTML</li>
+                <li>Fundamentele HTML</li>
+                <li>Introducere in CSS</li>
+                <li>HTML SI CSS</li>
+                <li>Cuvinte cheie</li>
+            </uL>
         </section>
         <section class="container">
             <section>
@@ -73,18 +94,19 @@
                     <li> html </li>
                     <li> css </li>
                 </ol>
-            <section id=foto class="container">
-            <H2>Galerie foto</H2>
-           <img src="./assets/img/1shortcut.png" alt="" class="foto">
-           <img src="./assets/img/2shortcut.jpeg" alt="" class="foto">
-           <img src="./assets/img/3shortcut.jpeg" alt="" class="foto">
-           <img src="./assets/img/R.png" alt="" class="foto"> 
-           <img src="./assets/img/Complete list of vs code shortcut keys in one place.jpg" alt="" class="foto">
-        
+                <section id=foto class="container">
+                    <H2>Galerie foto</H2>
+                    <img src="./assets/img/1shortcut.png" alt="" class="foto">
+                    <img src="./assets/img/2shortcut.jpeg" alt="" class="foto">
+                    <img src="./assets/img/3shortcut.jpeg" alt="" class="foto">
+                    <img src="./assets/img/R.png" alt="" class="foto">
+                    <img src="./assets/img/Complete list of vs code shortcut keys in one place.jpg" alt="" class="foto">
 
-         </section>
-     </MAIN>
+
+                </section>
+    </MAIN>
 
 
 </body>
+
 </html>

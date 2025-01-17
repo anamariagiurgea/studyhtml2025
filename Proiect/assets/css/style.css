@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Playwrite VN';
+    src: url('../fonts/PlaywriteVN-Regular.eot');
+    src: local('Playwrite VN Regular'), local('PlaywriteVN-Regular'),
+        url('../fonts/PlaywriteVN-Regular.eot') format('embedded-opentype'),
+        url('../fonts/PlaywriteVN-Regular.woff2') format('woff2'),
+        url('../fonts/PlaywriteVN-Regular.woff') format('woff'),
+        url('../fonts/PlaywriteVN-Regular.ttf') format('truetype'),
+        url('../fonts/PlaywriteVN-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 .logo{
     width: 100%;
     max-width: 150px;
@@ -28,7 +41,11 @@ nav ul li a{
     color: #e2ebee;
     text-decoration: none;
     align: left;
-    }
+    font-family: "Playwrite VN", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
 
 /* End of header */
 #banner{background-image: url(../img/technology-banner.jpg) ;
